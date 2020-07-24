@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:module/preserve_info.dart';
 import 'package:module/register_device.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(Module());
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((value) => runApp(Module()));
 }
 
 class Module extends StatelessWidget {
