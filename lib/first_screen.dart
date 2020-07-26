@@ -4,6 +4,7 @@ import 'package:module/main_screen.dart';
 import 'package:module/register_device.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+/// this screen has no use at present
 class FirstScreen extends StatefulWidget {
   @override
   _FirstScreenState createState() => _FirstScreenState();
