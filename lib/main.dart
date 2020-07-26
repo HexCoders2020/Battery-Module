@@ -5,6 +5,7 @@ import 'package:module/register_device.dart';
 import 'package:provider/provider.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((value) => runApp(Module()));
 }
 
