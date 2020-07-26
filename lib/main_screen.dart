@@ -8,7 +8,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:module/preserve_info.dart';
 import 'package:provider/provider.dart';
 
-/// this screen appears the user presses the proceed button in register_device_screen
+/// this screen appears when the user presses the proceed button in register_device_screen
 class MainScreen extends StatefulWidget {
   MainScreen({this.userName}); /// when this screen is called then a variable is passed to it
   final String userName;
